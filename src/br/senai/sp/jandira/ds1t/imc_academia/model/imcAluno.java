@@ -32,19 +32,19 @@ public class imcAluno {
      }
 
     public void ClassificarPseo(){
-        if(imc <= 18.5) {
+        if(imc < 18.6) {
            resultadoFinal ="status do peso: abaixo do peso";
             
-        }else if (imc > 18.5 && imc <= 24.9){
+        }else if (imc >= 18.6 && imc < 25.0){
             resultadoFinal = "status do peso: ideal (saldavel) ";
             
-        } else if (imc >= 25.0 && imc <= 29.9) {
+        } else if (imc >= 25.0 && imc < 30.0) {
             resultadoFinal = "status do peso: levemente acima do pesso";
 
-        } else if (imc >= 30.0 && imc <= 34.9) {
+        } else if (imc >= 30.0 && imc < 35.0) {
             resultadoFinal = "status do peso: obesidade gral 1";
 
-        } else if (imc >= 35.0 && imc <= 39.9) {
+        } else if (imc >= 35.0 && imc < 40.0) {
             resultadoFinal = "status do peso: obesidade gral 2 (severa)";
 
         }else {
